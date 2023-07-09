@@ -32,7 +32,13 @@ export const ReadMore = (props) => {
 			<p className={content.length > 200 ? Read : ""}>{content}</p>
 			<button
 				onClick={() => handleReadmore()}
-				className="btn py-1 px-2 text-xl my-6">
+				style={{
+					paddingLeft: "10px 20px 10px 20px",
+					fontSize: "20px",
+					color: "#fff",
+					backgroundColor: "#000",
+					borderRadius: "30px",
+				}}>
 				readmore
 			</button>
 		</>
