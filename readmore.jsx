@@ -33,11 +33,12 @@ export const ReadMore = (props) => {
 			<button
 				onClick={() => handleReadmore()}
 				style={{
-					paddingLeft: "10px 20px 10px 20px",
+					padding: "5px 20px 5px 20px",
+					margin: "40px 0",
 					fontSize: "20px",
 					color: "#fff",
 					backgroundColor: "#000",
-					borderRadius: "30px",
+					borderRadius: "5px",
 				}}>
 				readmore
 			</button>
