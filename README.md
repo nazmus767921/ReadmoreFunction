@@ -10,5 +10,5 @@
 //? To use the component, first import the component where you want to use it.
 //? Then, call the component function which would be the content, and paste the text in -- content=  -- or link the dynamic content.
 // see examples in example.jsx
-// <ReadMore content="" />;
+```<ReadMore content="" />;
 //? ------------------------------------------
