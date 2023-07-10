@@ -47,31 +47,3 @@ export const ReadMore = (props) => {
 		</>
 	);
 };
-
-// //* Readmore function
-// export const ReadMore = (props) => {
-// 	//* props Destructuring
-// 	const { content } = props;
-
-// 	//* Default function
-// 	const [Read, setRead] = useState("line-clamp-4");
-// 	const handleReadmore = () => {
-// 		if (Read === "line-clamp-4") {
-// 			setRead("");
-// 		} else if (Read === "") {
-// 			setRead("line-clamp-4");
-// 		}
-// 	};
-// 	return (
-// 		<>
-// 			<p className={content.length > 200 ? Read : ""}>{content}</p>
-// 			<button
-// 				onClick={() => handleReadmore()}
-// 				className={
-// 					content.length > 200 ? "flex btn py-1 px-2 text-xl my-6" : "hidden"
-// 				}>
-// 				readmore
-// 			</button>
-// 		</>
-// 	);
-// };
