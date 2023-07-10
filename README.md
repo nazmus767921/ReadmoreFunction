@@ -2,7 +2,7 @@
 # To use in React
 # 
 
-//! Created by Nazmus Sakib, GitHub:nazmus767921 //! USING ONLY REACT
+//! Created by Nazmus Sakib, GitHub:nazmus767921 //! REACT js
 //? Use Better Comments vs_code extension to see the comments pop.
 //! ------------------------------------------
 
